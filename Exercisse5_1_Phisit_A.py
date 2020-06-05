@@ -1,10 +1,10 @@
-x = 10
-y = 2
+x = int(input("First number :"))
+y = int(input("Second number :"))
 a = x + y
 b = x - y
 c = x * y
 d = x / y
-print("10 + 2 =" ,a)
-print("10 - 2 =" ,b)
-print("10 * 2 =" ,c)
-print("10 / 2 =" ,d)
+print(x,"+",y,"=" ,a)
+print(x,"-",y,"=" ,b)
+print(x,"*",y,"=" ,c)
+print(x,"/",y,"=" ,d)
